@@ -10,7 +10,7 @@ export default function Signup() {
                     <div className="signup-form">
                         <h2 className="form-title">Sign up</h2>
                         <form method="POST" className="register-form" id="register-form">
-                            <div className="form-group" style={{ }}>
+                            <div className="form-group">
                                 <span class="material-symbols-outlined"  style={{ position:'relative', top:'45px'}}>person</span>
                                 <label for="name"><i className="zmdi zmdi-account material-icons-name"></i></label>
                                 <input type="text" name="name" id="name" placeholder="Your Name" style={{ paddingLeft:'35px'}}/>

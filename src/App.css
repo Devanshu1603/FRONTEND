@@ -560,3 +560,115 @@ color: #107abc;
  
 }
 
+#skill{
+  width: 150px;
+  height: 45px;
+  position: relative;
+  left: 80px;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  background-color: #1492e0;
+  color: #fff;
+}
+
+/* Modal Overlay */
+.modal {
+  display: flex; /* Use flexbox for centering */
+  position: fixed; /* Fixed position to cover the entire screen */
+  z-index: 1; /* Sit on top of other content */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe; /* White background */
+  margin: 15% auto; /* Center the modal */
+  padding: 20px; /* Padding inside the modal */
+  border: 1px solid #888; /* Border color */
+  width: 400px; /* Width of the modal */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  
+}
+
+/* Close Button */
+.close {
+  color: #aaa; /* Gray color */
+  float: right; /* Position to the right */
+  font-size: 28px; /* Font size */
+  font-weight: bold; /* Bold text */
+}
+
+.close:hover,
+.close:focus {
+  color: black; /* Change color on hover/focus */
+  text-decoration: none; /* No underline */
+  cursor: pointer; /* Pointer cursor */
+}
+
+/* Input and Select Styles in Modal */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="month"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding */
+  margin: 8px 0; /* Margin around inputs */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+}
+
+/* Textarea Specific Styles */
+textarea {
+  resize: vertical; /* Allow vertical resizing */
+}
+
+/* Button Styles in Modal */
+button {
+  background-color: #1492e0; /* Blue background */
+  color: white; /* White text */
+  border: none; /* No border */
+  padding: 10px 15px; /* Padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* No underline */
+  display: inline-block; /* Inline block */
+  font-size: 16px; /* Font size */
+  margin: 4px 2px; /* Margin */
+  cursor: pointer; /* Pointer cursor */
+  border-radius: 5px; /* Rounded corners */
+}
+
+button:hover {
+  background-color: #1177b3; /* Darker blue on hover */
+}
+
+/* Responsive Styles for Modal */
+@media (max-width: 600px) {
+  .modal-content {
+      width: 90%; /* Make modal responsive */
+  }
+}
+
+#skill-container {
+  display: flex;
+  gap: 10px;
+  padding: 10px;        /* Adjust the padding as needed */
+  border: 1px solid #ccc; /* Optional: Add a border for visibility */
+  border-radius: 5px;   /* Optional: Rounded corners */
+  background-color: #f9f9f9; /* Optional: Background color */
+}
+
+#experience-container{
+  display: inline-block;
+  max-width: 500px;
+}
